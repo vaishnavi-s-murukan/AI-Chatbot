@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\" ",
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.ts\" ",
     "build": "tsc",
-    "start": "nodemon index.js"
+    "start": "nodemon index.ts"
   },
   "keywords": [],
   "author": "",
