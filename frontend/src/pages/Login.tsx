@@ -18,7 +18,7 @@ export const Login = () => {
       toast.loading("Signing In",{id:"login"});
       await auth?.login(email,password);
       toast.success("Signed In Suceesfully",{id:"login"});
-    }catch(error){
+    }catch{
       toast.error("Signing In Failed",{id:"login"});
     }
     
